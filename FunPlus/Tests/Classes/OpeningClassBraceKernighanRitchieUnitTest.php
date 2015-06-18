@@ -1,5 +1,5 @@
 <?php
-class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchie extends AbstractSniffUnitTest
+class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchieUnitTest extends AbstractSniffUnitTest
 {
 	/**
 	 * Returns the lines where errors should occur.
