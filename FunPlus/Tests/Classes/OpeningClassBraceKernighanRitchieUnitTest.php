@@ -10,9 +10,7 @@ class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchieUnitTest extends Ab
 	 * @return array(int => int)
 	 */
 	public function getErrorList() {
-		return array(
-			7 => 1,
-		);
+		return array();
 	}
 
 	/**
