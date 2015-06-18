@@ -1,1 +1,1 @@
-# Funplus-Coding-Standards
+# FunPlus-Coding-Standards
