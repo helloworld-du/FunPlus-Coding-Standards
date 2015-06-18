@@ -5,3 +5,11 @@ class TestHello
 		return true;
 	}
 }
+
+class TestHello2 {
+
+	public function yyy() {
+		return false;
+	}
+
+}
