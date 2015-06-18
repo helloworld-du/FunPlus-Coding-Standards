@@ -2,6 +2,6 @@
 <ruleset name="FunPlus">
     <description>FunPlus Coding Standards</description>
 
-    <rule ref="FunPlus.Class.OpeningFunctionBraceKernighanRitchie"/>
+    <rule ref="FunPlus.Classes.OpeningFunctionBraceKernighanRitchie"/>
 
 </ruleset>
