@@ -60,7 +60,7 @@ Run the `phpcs` command line tool on a given file or directory, for example:
 
 ## Standards subsets
 
-The project encompasses a super–set of the sniffs that the FunPlus community may need. If you use the `FunPlus` standard you will get all the checks. Some of them might be unnecessary for your environment, for example those specific to FunPlus VIP coding requirements.
+The project encompasses a super–set of the sniffs that the FunPlus community may need. If you use the `FunPlus` standard you will get all the checks. 
 
 You can use the following as standard names when invoking `phpcs` to select sniffs, fitting your needs:
 
