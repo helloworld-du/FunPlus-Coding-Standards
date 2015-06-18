@@ -1,6 +1,6 @@
 <?php
-class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchieUnitTest extends AbstractSniffUnitTest
-{
+
+class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchieUnitTest extends AbstractSniffUnitTest {
 	/**
 	 * Returns the lines where errors should occur.
 	 *
@@ -9,12 +9,12 @@ class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchieUnitTest extends Ab
 	 *
 	 * @return array(int => int)
 	 */
-	public function getErrorList()
-	{
+	public function getErrorList() {
 		return array(
 			7 => 1,
 		);
 	}
+
 	/**
 	 * Returns the lines where warnings should occur.
 	 *
@@ -23,8 +23,7 @@ class FunPlus_Tests_Classes_OpeningClassBraceKernighanRitchieUnitTest extends Ab
 	 *
 	 * @return array(int => int)
 	 */
-	public function getWarningList()
-	{
+	public function getWarningList() {
 		return array();
 	}
 }
