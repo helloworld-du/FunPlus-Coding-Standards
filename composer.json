@@ -1,0 +1,21 @@
+{
+	"name"       : "fp-coding-standards/fpcs",
+	"description": "PHP_CodeSniffer rules (sniffs) to enforce FunPlus coding conventions",
+	"keywords"   : ["phpcs", "standards", "FunPlus"],
+	"license"    : "MIT",
+	"authors"    : [
+		{
+			"name"    : "Zhengkai"
+		},
+		{
+			"name"    : "Junjie.Ning"
+		}
+	],
+	"require"    : {
+		"squizlabs/php_codesniffer": "~2.2"
+	},
+	"scripts"    : {
+		"post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../..",
+		"post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths ../../.."
+	}
+}
